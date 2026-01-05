@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>オンライン家庭教師 Tutor N</title>
+<style>
+  body { font-family: 'Helvetica', sans-serif; margin:0; color:#333; line-height:1.6; background:#fff9f0; }
+  a { text-decoration:none; }
+
+  header { background:#facc15; color:white; text-align:center; padding:3rem 1rem; position:relative; overflow:hidden; }
+  header::after { content:""; position:absolute; top:0; right:0; width:200px; height:200px; background:rgba(255,255,255,0.2); border-radius:50%; }
+  header h1 { font-size:2.5rem; margin:0; z-index:1; position:relative; }
+  header p { font-size:1.2rem; margin-top:0.5rem; z-index:1; position:relative; }
+  header a { display:inline-block; margin-top:1.5rem; background:white; color:#facc15; padding:0.7rem 1.5rem; border-radius:8px; font-weight:bold; box-shadow:0 3px 8px rgba(0,0,0,0.2); transition:0.3s; z-index:1; position:relative; }
+  header a:hover { background:#fff7e6; }
+
+  section { padding:3rem 1rem; max-width:900px; margin:0 auto; }
+  section h2 { font-size:1.8rem; margin-bottom:1rem; text-align:center; color:#f59e0b; }
+
+  .illustration { display:block; max-width:200px; margin:1.5rem auto; border-radius:12px; }
+  .classroom { display:block; max-width:300px; margin:2rem auto; border-radius:12px; box-shadow:0 3px 10px rgba(0,0,0,0.1); }
+
+  .features { display:grid; grid-template-columns:1fr; gap:1rem; margin-top:2rem; }
+  @media(min-width:768px) { .features { grid-template-columns:repeat(3,1fr); } }
+  .feature { background:white; padding:1.5rem; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center; transition:0.3s; }
+  .feature:hover { transform:translateY(-5px); box-shadow:0 8px 20px rgba(0,0,0,0.15); }
+
+  ul { padding-left:1.5rem; }
+
+  .reviews { display:grid; grid-template-columns:1fr; gap:1rem; margin-top:2rem; }
+  @media(min-width:768px) { .reviews { grid-template-columns:repeat(2,1fr); } }
+  .review { background:#fff7e6; padding:1rem; border-radius:12px; box-shadow:0 3px 8px rgba(0,0,0,0.1); transition:0.3s; }
+  .review:hover { transform:translateY(-3px); box-shadow:0 6px 16px rgba(0,0,0,0.15); }
+  .review .author { text-align:right; font-weight:bold; margin-top:0.5rem; color:#f59e0b; }
+
+  .form-container { display:flex; justify-content:center; margin-top:1.5rem; }
+  .form-container iframe { width:100%; max-width:600px; height:500px; border:0; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.1); }
+
+  footer { background:#333; color:white; text-align:center; padding:1.5rem; margin-top:2rem; font-size:0.9rem; border-top:4px solid #facc15; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>オンライン家庭教師 Tutor N</h1>
+  <p>分かる喜びを、一緒に育てる個別指導</p>
+  <a href="#contact">応募・予約はこちら</a>
+</header>
+
+<section>
+  <h2>自己紹介</h2>
+  <img src="https://via.placeholder.com/200?text=Tutor+Icon" alt="講師イラスト" class="illustration">
+  <p>元塾講師で、これまで多くの生徒を指導してきました。丁寧で分かりやすい授業を心がけ、苦手科目も楽しく学べる指導を行っています。オンライン授業で全国どこからでも受講可能です。</p>
+  <img src="https://via.placeholder.com/300x180?text=授業風景" alt="授業風景イラスト" class="classroom">
+</section>
+
+<section>
+  <h2>特徴</h2>
+  <div class="features">
+    <div class="feature">
+      <h3>個別指導</h3>
+      <p>生徒一人ひとりに合わせたオーダーメイド授業。</p>
+    </div>
+    <div class="feature">
+      <h3>オンライン対応</h3>
+      <p>ZoomやGoogle Meetで自宅から安心して学習可能。</p>
+    </div>
+    <div class="feature">
+      <h3>柔軟な時間割</h3>
+      <p>平日・休日問わず、生徒の都合に合わせて調整可能。</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>指導内容・料金</h2>
+  <ul>
+    <li>対象：小学生～中学生</li>
+    <li>科目：数学・英語・国語・理科など</li>
+    <li>授業方法：オンライン（Zoom / Google Meet）</li>
+    <li>料金：1時間 3,000円～</li>
+  </ul>
+</section>
+
+<section>
+  <h2>生徒・保護者の声</h2>
+  <div class="reviews">
+    <div class="review">
+      <p>"苦手だった数学がわかるようになりました！授業はとても丁寧です。"</p>
+      <div class="author">- 高校生Aさん</div>
+    </div>
+    <div class="review">
+      <p>"子供が毎回楽しみに授業を受けています。安心して任せられます。"</p>
+      <div class="author">- 保護者Bさん</div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>応募・予約フォーム</h2>
+  <div class="form-container">
+    <!-- 仮URLのままでも動作確認可能です -->
+    <iframe src="https://docs.google.com/forms/d/1brIOK4rDNEaddqN1i80JaUuScV-l4wCxUh5103LC7Sg/viewform?embedded=true"
+            frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+  </div>
+</section>
+
+<footer>
+  &copy; 2026 Tutor N オンライン家庭教師
+</footer>
+
+</body>
+</html>
